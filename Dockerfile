@@ -1,6 +1,6 @@
 
 FROM openresty/openresty
-MAINTAINER openresty-test
+MAINTAINER openresty-test by zcsk18
 
 RUN apt update && apt install -y \
 	wget \
