@@ -1,5 +1,5 @@
 <script>
-var ws = new WebSocket("ws://127.0.0.1:8099/wb/", 'echo')
+var ws = new WebSocket("ws://" + window.location.host + "/wb/", 'echo')
 var index = 0;
 
 ws.onopen = function() {
